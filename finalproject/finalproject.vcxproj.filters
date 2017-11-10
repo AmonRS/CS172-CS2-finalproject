@@ -27,6 +27,9 @@
     <ClCompile Include="win_lose.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="save_load_scores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hangman.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="win_lose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="save_load_scores.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

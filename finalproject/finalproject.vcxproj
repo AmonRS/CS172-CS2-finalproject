@@ -144,12 +144,14 @@
   <ItemGroup>
     <ClCompile Include="alphabeta.cpp" />
     <ClCompile Include="hangman.cpp" />
+    <ClCompile Include="save_load_scores.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="win_lose.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alphabeta.h" />
     <ClInclude Include="hangman.h" />
+    <ClInclude Include="save_load_scores.h" />
     <ClInclude Include="win_lose.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

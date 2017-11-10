@@ -1,3 +1,6 @@
+/*
+victory , game-over , byebye
+*/
 #include "win_lose.h"
 
 void won() {
@@ -9,10 +12,10 @@ void game_over() {
 	//resize console window and clear screen
 	HWND hwnd = GetConsoleWindow();
 	if (hwnd != NULL) { MoveWindow(hwnd, 0, 0, 1600, 600, TRUE); }
-	system("cls"); //clearing screen
-
-				   //boo sound
-	play_music_boo();
+	system("cls");
+	
+	///boo sound
+	///play_music_boo();
 
 	//output GameoveR ASCII art
 	cout << "          GGGGGGGGGGGGG                                                                                                                          RRRRRRRRRRRRRRRRR   " << endl; Sleep(500);

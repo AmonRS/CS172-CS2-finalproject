@@ -7,12 +7,13 @@ int main() {
 	login();
 
 	//menu
+	show_menu();
 	int choice;
 
 	switch (choice)
 	{
 	case 1:
-		play_alphabeta();
+		play_alpha_beta();
 		break;
 	case 2:
 		play_hangman();
@@ -32,9 +33,18 @@ int main() {
 }
 
 void login() {
-
+	//ask player name
 }
 
 void change_player() {
 	login();
+}
+
+void show_menu() {
+	//show menu
+	//1. alphabeta
+	//2. hangman
+	//3. other game
+	//4. change player
+	//5. exit
 }
