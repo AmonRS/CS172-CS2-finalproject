@@ -4,9 +4,6 @@ hangman
 #include "hangman.h"
 #include "win_lose.h"
 
-bool win = false;
-int length;
-char character;
 
 
 

@@ -2,15 +2,24 @@
 
 #ifndef alphabeta
 
+#include "game.h"
+
+class AlphaBeta: public Game
+{
+public:
+	AlphaBeta: public Game();
+	~AlphaBeta: public Game();
+
+	void playgame();
+	void instructions();
+	void won();
 
 
-#include <iostream>
-using namespace std;
 
+private:
 
-void play_alpha_beta();
+};
 
-void how_to_play_alpha_beta();
 
 
 
