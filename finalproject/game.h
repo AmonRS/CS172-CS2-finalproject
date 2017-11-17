@@ -1,18 +1,28 @@
+/*
+main game class
+inherited by alphabeta and hangman
+*/
 #pragma once
 
 #ifndef game
 
-class Game
-{
-public:
-	Game();
+	#include <iostream>
+	using namespace std;
 
-	virtual void won_lost();
-	virtual void playgame();
-	virtual void instructions();
 
-private:
-	bool won;
-};
+
+	class Game
+	{
+	public:
+		Game();
+		~Game();
+
+		virtual void won_lost();
+		virtual void playgame();
+		virtual void instructions();
+
+	};
+
+
 
 #endif // !game

@@ -1,0 +1,137 @@
+﻿  save_load_scores.cpp
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\save_load_scores.cpp(15): error C2065: 'name': undeclared identifier
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\save_load_scores.cpp(15): error C2065: 'p1': undeclared identifier
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\save_load_scores.cpp(15): error C2228: left of '.player_number_of_moves' must have class/struct/union
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\save_load_scores.cpp(15): note: type is 'unknown-type'
+  hangman.cpp
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): error C2131: expression did not evaluate to a constant
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): note: failure was caused by call of undefined function or one not declared 'constexpr'
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): note: see usage of 'Game::Game'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): error C2460: 'Hangman::<alignment member>': uses 'Hangman', which is being defined
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(7): note: see declaration of 'Hangman'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(11): error C2059: syntax error: ':'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(11): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\win_lose.h(8): error C2059: syntax error: 'using namespace'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\win_lose.h(8): error C2238: unexpected token(s) preceding ';'
+c:\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2059: syntax error: 'string'
+c:\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2059: syntax error: 'string'
+c:\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\dde.h(22): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\dde.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\ddeml.h(18): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\ddeml.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(264): error C3646: 'bRed': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(264): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(265): error C3646: 'bGreen': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(265): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(266): error C3646: 'bBlue': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(266): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(267): error C3646: 'bExtra': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(267): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\lzexpand.h(26): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\lzexpand.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h(29): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h(29): fatal error C1003: error count exceeds 100; stopping compilation
+  alphabeta.cpp
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(10): error C2059: syntax error: 'public'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(10): error C2238: unexpected token(s) preceding ';'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(11): error C2059: syntax error: ':'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(11): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.cpp(10): fatal error C1004: unexpected end-of-file found
+  Source.cpp
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): error C2131: expression did not evaluate to a constant
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): note: failure was caused by call of undefined function or one not declared 'constexpr'
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): note: see usage of 'Game::Game'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(10): error C2460: 'Hangman::<alignment member>': uses 'Hangman', which is being defined
+  e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(7): note: see declaration of 'Hangman'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(11): error C2059: syntax error: ':'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\hangman.h(11): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(10): error C2059: syntax error: 'public'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(10): error C2238: unexpected token(s) preceding ';'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(11): error C2059: syntax error: ':'
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\alphabeta.h(11): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\microsoft visual studio 14.0\vc\include\string(17): error C2059: syntax error: 'namespace'
+c:\microsoft visual studio 14.0\vc\include\string(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+e:\01 whitworth\02 sem2\computer science ii\cs2finalproject\finalproject\source.cpp(79): fatal error C1004: unexpected end-of-file found
+  Generating Code...

@@ -7,8 +7,8 @@
 class Hangman: public Game
 {
 public:
-	Hangman: public Game();
-	~Hangman: public Game();
+	Hangman: Game();
+	~Hangman: Game();
 
 	void playgame();
 	void instructions();
