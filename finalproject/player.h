@@ -2,17 +2,23 @@
 
 #ifndef player
 
-#include <string>
+	#include <string>
 
-class Player
-{
-public:
-	Player();
-	~Player();
 
-private:
-	std::string name;
-};
+
+	class Player
+	{
+	public:
+		std::string name;
+
+		Player();
+		~Player();
+
+	private:
+		std::string current_game;
+		int score;
+	};
+
 
 
 #endif // !player
