@@ -1,15 +1,24 @@
 #include "hangman.h"
 #include "alphabeta.h"
-//#include "win_lose.h"
 #include "player.h"
 
 
 //global variables
 Player *player1;
 
+//prototypes
+void welcome_screen();
+void login();
+void logout();
+void change_player();
+void show_menu();
+
 
 
 int main() {
+	//welcome screen
+	welcome_screen();
+
 	//login
 	login();
 
@@ -24,20 +33,26 @@ int main() {
 		switch (choice)
 		{
 		case 1:
-			play_alpha_beta();
+			//play alphabeta
+			player1->set_current_game("AlphaBeta");
+			AlphaBeta *alphabeta1 = new AlphaBeta;
+			alphabeta1->show_game_menu();
 			break;
 		case 2:
-			play_hangman();
+			//play hangman
+			player1->set_current_game("Hangman");
+			Hangman *hangman1 = new Hangman;
+			hangman1->show_game_menu();
 			break;
 		case 3:
-			play_other_game();
+			///play_other_game();
 			break;
 		case 4:
 			change_player();
 			break;
 		case 5:
 			keep_playing = false;
-			byebye();
+			///byebye();
 			break;
 		default:
 			cout << "what ???" << endl;
@@ -71,10 +86,19 @@ void change_player() {
 
 void show_menu() {
 	/*show menu*/
+	system("cls"); //clearing screen
+
 	cout << "~ menu ~" << endl;
 	cout << "1. Play AlphaBeta" << endl;
 	cout << "2. Play Hangman" << endl;
 	cout << "3. Play some other game" << endl;
 	cout << "4. Change Player" << endl;
 	cout << "5. Exit" << endl;
+}
+
+void welcome_screen() {
+	/*welcome screen*/
+	system("cls"); //clearing screen
+
+	cout << "Enter Coin To Start" << endl;
 }

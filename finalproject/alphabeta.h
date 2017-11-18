@@ -1,27 +1,33 @@
 #pragma once
 
-#ifndef alphabeta
-
-#include "game.h"
-
-class AlphaBeta: public Game
-{
-public:
-	AlphaBeta: public Game();
-	~AlphaBeta: public Game();
-
-	void playgame();
-	void instructions();
-	void won();
+#ifndef alphabeta_h
 
 
 
-private:
+	#include "game.h"
+	#include "win_lose.h"
 
-};
+	class AlphaBeta: public Game
+	{
+	public:
+		AlphaBeta() : Game() {
+			//constructor
+		}
+		~AlphaBeta();
+
+		void show_game_menu();
+		void playgame();
+		void instructions();
+		void won_lost();
+
+
+
+	private:
+
+	};
 
 
 
 
-#endif // !alphabeta
+#endif // !alphabeta_h
 

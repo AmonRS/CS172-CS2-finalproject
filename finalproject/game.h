@@ -4,7 +4,7 @@ inherited by alphabeta and hangman
 */
 #pragma once
 
-#ifndef game
+#ifndef game_h
 
 	#include <iostream>
 	using namespace std;
@@ -20,9 +20,10 @@ inherited by alphabeta and hangman
 		virtual void won_lost();
 		virtual void playgame();
 		virtual void instructions();
+		virtual void show_game_menu();
 
 	};
 
 
 
-#endif // !game
+#endif // !game_h

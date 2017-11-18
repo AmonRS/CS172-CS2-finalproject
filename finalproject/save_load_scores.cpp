@@ -12,7 +12,7 @@ void save_score() {
 	myfilewrite.open(path, ios::out | ios::app);  //open file
 
 												  //myfilewrite << "high-score....\n";  //write score to file
-	myfilewrite << name << " - " << p1.player_number_of_moves << "\n";   //write
+	myfilewrite << "name" << " - " << "p1.player_number_of_moves" << "\n";   //write
 
 	myfilewrite.close();   //close file
 }
