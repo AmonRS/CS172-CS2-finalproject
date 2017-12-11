@@ -9,6 +9,7 @@ using namespace std;
 
 void hangman();
 string getWord();
+void dyingperson(int count0);
 
 int main() {
 	hangman();
@@ -29,6 +30,7 @@ void hangman() {
 	while (count < 6) {
 		cout << "\n";
 		//check to see if user won
+		dyingperson(count);
 		if (w == word) {
 			cout << "CONGRATULAITONS!\n";
 			return;
@@ -76,4 +78,74 @@ string getWord() {
 	
 	//randomly choosing a word from that list
 	return list[int(rand()) % list.size()];
+}
+
+void dyingperson(int count){
+	if(count==0){
+	cout << "I" << endl;
+	}
+	else if(count==1){
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==1){
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==2){
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==2){
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==3){
+	cout << "I===" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==3){
+	cout << "I===" << endl;
+	cout << "I  O" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==4){
+	cout << "I===" << endl;
+	cout << "I  O" << endl;
+	cout << "I  |" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==4){
+	cout << "I===" << endl;
+	cout << "I  O" << endl;
+	cout << "I -|" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==5){
+	cout << "I===" << endl;
+	cout << "I  O" << endl;
+	cout << "I -|-" << endl;
+	cout << "I" << endl;
+	cout << "I" << endl;
+	}
+	else if(count==5){
+	cout << "I===" << endl;
+	cout << "I  O" << endl;
+	cout << "I -|-" << endl;
+	cout << "I /"  << endl;
+	cout << "I" << endl;
+	}
 }
